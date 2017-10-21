@@ -1,0 +1,17 @@
+#div1, #div2 {
+  width: 100px;
+  height: 200px; }
+  #div1 .a, #div2 .a {
+    color: red; }
+    #div1 .a #b, #div2 .a #b {
+      height: 100px;
+      color: #ccc; }
+
+#div2:hover {
+  background-color: #ccc; }
+
+#di3 {
+  height: 400px;
+  color: #ccc; }
+
+/*# sourceMappingURL=style.css.map */

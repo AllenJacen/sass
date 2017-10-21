@@ -1,0 +1,22 @@
+$highlight-color:#ccc;
+#div1{
+  width: 100px;
+  height: 200px;
+  .a{
+    color: red;
+    #b{
+      height: 100px;
+      color: $highlight-color;
+    }
+  }
+}
+#div2{
+  @extend #div1;
+  &:hover{
+    background-color:#ccc;
+  }
+}
+#di3{
+  height:400px;
+  color: $highlight-color;
+}

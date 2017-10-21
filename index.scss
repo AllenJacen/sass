@@ -1,0 +1,47 @@
+#div1{
+  width: 100px;
+  height: 200px;
+  .a{
+    color: red;
+  }
+}
+#div2{
+  @extend #div1;
+}
+#di3{
+  height:199px + 10px;
+  width:(50px/2);
+}
+$Imgurl: '1.jpg';
+#div4{
+  background: url('img/'+'xx.jpg');
+  float: to-upper-case($string: "left")
+}
+$map:(light:#000,dork:#000);
+#div5{
+  background: map-get($map,dork);
+}
+$column:5;
+@for $i from 1 through $column{
+.col-lg-#{$i}{
+  width:percentage($i/10);
+}
+}
+@for $i from 1 to $column{
+  .col-md-#{$i}{
+    width:percentage($i/10);
+  }
+}
+$icons:error waring success;
+@each $icon in $icons{
+  .icon-#{$icon}{
+    background: url('img/'+$icon+'.jpg');
+  }
+}
+$number:6; 
+@while($number%2)==0{
+  .col-mg-#{$number}{
+   background: #ccc;
+  } 
+  // $number:$number - 2;
+}

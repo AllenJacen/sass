@@ -1,0 +1,63 @@
+#div1, #div2 {
+  width: 100px;
+  height: 200px; }
+  #div1 .a, #div2 .a {
+    color: red; }
+
+#di3 {
+  height: 209px;
+  width: 25px; }
+
+#div4 {
+  background: url("img/xx.jpg");
+  float: "LEFT"; }
+
+#div5 {
+  background: #000; }
+
+.col-lg-1 {
+  width: 10%; }
+
+.col-lg-2 {
+  width: 20%; }
+
+.col-lg-3 {
+  width: 30%; }
+
+.col-lg-4 {
+  width: 40%; }
+
+.col-lg-5 {
+  width: 50%; }
+
+.col-md-1 {
+  width: 10%; }
+
+.col-md-2 {
+  width: 20%; }
+
+.col-md-3 {
+  width: 30%; }
+
+.col-md-4 {
+  width: 40%; }
+
+.icon-error {
+  background: url("img/error.jpg"); }
+
+.icon-waring {
+  background: url("img/waring.jpg"); }
+
+.icon-success {
+  background: url("img/success.jpg"); }
+
+.col-mg-6 {
+  background: #ccc; }
+
+.col-mg-4 {
+  background: #ccc; }
+
+.col-mg-2 {
+  background: #ccc; }
+
+/*# sourceMappingURL=index.css.map */
